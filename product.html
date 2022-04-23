@@ -1,120 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/product.css">
     <title>Products</title>
-    <style>
-    body{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-weight: bold;
-        font-size: large;
-        font-style: italic; 
-        background-color: azure;
-        color:rgb(136, 11, 145);
-    }
-
-    .pic{
-        -webkit-filter: drop-shadow(5px 5px 5px #666666);
-        filter: drop-shadow(5px 5px 5px #666666);
-    }
-
-    .button2 {background-color: #008CBA;
-        color: white;
-        font-weight: bold;
-    
-        width: 72px;
-        height: 35px;
-        padding-left: auto;
-        padding-top: 0 auto;
-    } /* Blue */
-
-.lft{
-    margin-left: 60%;
-
-}
-
-.top{
-    margin-top: -90%;
-}
-
-.next {
-    background-color: #04AA6D;
-    color: rgb(22, 16, 16);
-    margin-left: 90%;
-    font-size: 100%;
-    align-items: center;
-    
-  }
-
-@media all and (max-width: 800px){
-
-body{
-    background-color: yellow;
-  
-}
-  
-.lft{
-    margin-left: 4%;
-    margin-top:3%;
-
-}
-
-
-.top{
-    margin-right:300%;
-    margin-top:5%;
-}
-
-#txt{
-    margin-bottom: -50%;
-}
-
-
-.next {
-    background-color: #04AA6D;
-    color: rgb(22, 16, 16);
-    margin-left: 70%;
-    font-size: 100%;
-    align-items: center;
-    
-  }
-
-.container{
-    margin-top: 90px;
- }
-
-}
-  
-    </style>
 </head>
 <body>
-   
-<div>
-    <a href="index.html">
-    <button class="button button2">Back</button>
-    </a>
-
-    <div class="container">
-
-<ul>
-
-    <li  class="li">iphone-x Rs.50,000</li>
-    <img class="pic" src ="images/apple.png" style="width:20%">
-    <br>
-
-    <li class="lft" >Novel Rs.800</li>
-    <img class="lft" class="pic" src ="images/book.png" style="width:20%">
-
-    
-    <img class="top"class="pic" src ="images/iphone.png" style="width:20%">
-    <li id="txt">Airpods Rs.2000</li>
-  </ul>  
-  </div> 
-<a href="next.html" class="next">Next &raquo;</a>
-
-</div>
-
+    <div>
+        <a href="index.html">
+            <button class="button button2">Back</button>
+        </a>
+        <div class="container">
+            <ul>
+                <li class="li">iphone-x Rs.50,000</li>
+                <img class="pic" src="images/apple.png" style="width:20%">
+                <br>
+                <li class="lft">Novel Rs.800</li>
+                <img class="lft" class="pic" src="images/book.png" style="width:20%">
+                <img class="top" class="pic" src="images/iphone.png" style="width:20%">
+                <li id="txt">Airpods Rs.2000</li>
+            </ul>
+        </div><a href="next.html" class="next">Next &raquo;</a>
+    </div>
 </body>
 </html>
